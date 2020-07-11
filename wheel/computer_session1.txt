@@ -1,0 +1,16 @@
+$ python computer.py
+you , pick your secret word.
+and
+['_', '_', '_']
+Guessed chars: []
+Computer guesses:  a
+['a', '_', '_']
+Guessed chars: ['a']
+Computer guesses:  n
+['a', 'n', '_']
+Guessed chars: ['a', 'n']
+Computer guesses:  o
+['a', 'n', '_']
+Guessed chars: ['a', 'n', 'o']
+Computer guesses:  d
+Solved  ['a', 'n', 'd']  in  4 guesses

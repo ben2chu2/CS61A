@@ -1,0 +1,38 @@
+In SecretWord, you want the secret word to be private. How do you name object attributes to indicate that it is private?
+What data structures could be used to hold the word set? What would make one choice better than another?
+Why is it important that WordSet.words return a sorted list of words in the word set, when all we use it for is to test if a word is in the WordSet?
+How does Dictionary invoke the initializer for its superclass?
+Do Players ever access the SecretWord object? What does Board reveal about the secret word?
+How will object methods of subclasses of Player access the all_words class attribute?
+Why does the Player base class define methods that don't do anything?
+
+
+ANSWERS
+SecretWord - to name object attributes and indicate that it is private 
+we typically put two underscores before and after the name
+
+Data Structures to hold word set - We could use arrays or lists or even dictionaries to hold the word set,
+but I believe that lists would be the most efficient data structure
+Accessibility 
+
+Wordset words needs to return a sorted list of words so that there is a
+universal return value for our information. We need to share the correct
+value for the different words inputted so that we can access them correctly.
+
+Dictionary invokes the initializer for its superclass by activating the initializer.
+Since its superclass is accessible, it is able to activate components of its parent class.
+
+Players don't access the secretword object. We can "access" the word
+by using len or match to find out more information about the word.
+
+Board reveals the blank spaces, the length of the word, and the letters
+that have been guessed so far. Board does not simply reveal the word as
+it must be guessed and progressively found over time.
+
+Object methods of subclasses of Player access the all-words class attribute by
+calling it for use.
+
+Player base class define methods that don't do anything because 
+they add extra detail for the class. 
+
+

@@ -1,0 +1,39 @@
+thomas@black MINGW64 ~/cs88/wheel
+$ python human.py
+['_', '_', '_', '_']
+Guessed chars:  []
+guesser , please enter your next guess.
+f
+['_', '_', '_', '_']
+Guessed chars:  ['f']
+guesser , please enter your next guess.
+e
+['_', '_', '_', '_']
+Guessed chars:  ['f', 'e']
+guesser , please enter your next guess.
+o
+['_', 'o', '_', '_']
+Guessed chars:  ['f', 'e', 'o']
+guesser , please enter your next guess.
+u
+['_', 'o', '_', '_']
+Guessed chars:  ['f', 'e', 'o', 'u']
+guesser , please enter your next guess.
+r
+['_', 'o', 'r', '_']
+Guessed chars:  ['f', 'e', 'o', 'u', 'r']
+guesser , please enter your next guess.
+n
+['_', 'o', 'r', '_']
+Guessed chars:  ['f', 'e', 'o', 'u', 'r', 'n']
+guesser , please enter your next guess.
+t
+['_', 'o', 'r', '_']
+Guessed chars:  ['f', 'e', 'o', 'u', 'r', 'n', 't']
+guesser , please enter your next guess.
+w
+['w', 'o', 'r', '_']
+Guessed chars:  ['f', 'e', 'o', 'u', 'r', 'n', 't', 'w']
+guesser , please enter your next guess.
+k
+Solved  ['w', 'o', 'r', 'k']  in  9 guesses

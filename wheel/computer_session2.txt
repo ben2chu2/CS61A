@@ -1,0 +1,32 @@
+$ python computer.py
+you , pick your secret word.
+four
+['_', '_', '_', '_']
+Guessed chars: []
+24 possible words.
+Computer guesses:  e
+['_', '_', '_', '_']
+Guessed chars: ['e']
+24 possible words.
+Computer guesses:  t
+['_', '_', '_', '_']
+Guessed chars: ['e', 't']
+24 possible words.
+Computer guesses:  a
+['_', '_', '_', '_']
+Guessed chars: ['e', 't', 'a']
+24 possible words.
+Computer guesses:  o
+['_', 'o', '_', '_']
+Guessed chars: ['e', 't', 'a', 'o']
+6 possible words.
+Computer guesses:  r
+['_', 'o', '_', 'r']
+Guessed chars: ['e', 't', 'a', 'o', 'r']
+2 possible words.
+Computer guesses:  f
+['f', 'o', '_', 'r']
+Guessed chars: ['e', 't', 'a', 'o', 'r', 'f']
+1 possible words.
+Computer guesses:  u
+Solved  ['f', 'o', 'u', 'r']  in  7 guesses
